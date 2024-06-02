@@ -14,11 +14,11 @@ const decrementByOne = () => {
 }
 
 const incrementByFive = () => {
-  dispatch({type: 'incrementbyfive'})
+  dispatch({type: 'incrementbyfive', amount: 5})
 }
 
 const decrementByFive = () => {
-  dispatch({type: 'decrementbyfive'})
+  dispatch({type: 'decrementbyfive', amount: 5})
 }
 
   const toggleCounterHandler = () => {};
